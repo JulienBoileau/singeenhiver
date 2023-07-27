@@ -1,0 +1,12 @@
+.bloc-contact {
+    margin-top : 50px;
+}
+
+.form-label {
+    font-weight: 600;
+}
+
+.mb-3, .col-auto {
+    width : 40%;
+    margin : auto;
+}
