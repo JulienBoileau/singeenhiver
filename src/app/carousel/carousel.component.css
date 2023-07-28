@@ -16,6 +16,7 @@
 }
 
 .words {
+    color : black;
     position: absolute;
     top : 380px;
     right: 30px;
