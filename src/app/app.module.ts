@@ -8,6 +8,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { AccordionComponent } from './accordion/accordion.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { AccordionComponent } from './accordion/accordion.component';
     CarouselComponent,
     ContactComponent,
     HomeComponent,
-    AccordionComponent
+    AccordionComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
