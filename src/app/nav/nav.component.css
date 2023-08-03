@@ -13,7 +13,7 @@
     box-shadow: 2px 2px 2px black;
 }
 
-.btn-nav:hover {
+.btn-nav:hover, .btn-right:hover {
     border-radius: 30px;
 }
 
@@ -27,11 +27,17 @@
 }
 
 .nav-item a {
+    font-family: 'Quicksand', sans-serif;
     color : #232321;
     font-size: 15px;
     font-weight: 600;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+#actualities {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .logoSinge {
@@ -53,4 +59,13 @@
     top : 30px;
     right: 40px;
     height: 30px;
+    color : #232321;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.offcanvas-top {
+    height: 75%;
+    background-color: #2c2b28;
 }

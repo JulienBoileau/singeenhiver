@@ -1,9 +1,16 @@
+.title-container {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+}
 
 .cards-container {
     display: flex;
     justify-content: space-evenly;
     width: 80%;
     margin: auto;
+}
+
+.subtitle, .card-text {
     font-family: 'Quicksand', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Condensed', sans-serif;
@@ -43,7 +50,7 @@
 .title-container {
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    margin-top: 10px;
 }
 
 .card-text, .subtitle {
@@ -52,10 +59,6 @@
 
 .card-two {
     line-height: 28px;
-}
-
-.title {
-    font-size: 18px;
 }
 
 .line-container {
