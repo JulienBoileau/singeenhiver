@@ -1,0 +1,20 @@
+
+.modal-content {
+    width: 150%;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Ratio 16:9 pour le conteneur vidéo (350 / 621 * 100) */
+    height: 0;
+    overflow: hidden;
+  }
+  
+  /* Style de la vidéo pour qu'elle occupe tout l'espace du conteneur */
+  .video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }

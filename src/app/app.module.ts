@@ -9,6 +9,8 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { AccordionComponent } from './accordion/accordion.component';
 import { FooterComponent } from './footer/footer.component';
+import { VideoModalComponent } from './video-modal/video-modal.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; 
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     HomeComponent,
     AccordionComponent,
-    FooterComponent
+    FooterComponent,
+    VideoModalComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

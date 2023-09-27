@@ -16,12 +16,24 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+.btn-food {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 2px 2px 2px black;
+}
+
 #logo_food {
     position: absolute;
     z-index: 5;
     top: 580px;
     left: 22.5%;
     width: 100px;
+}
+
+#ref {
+    font-size: smaller;
 }
 
 #logo_drink {
@@ -42,9 +54,9 @@
 
 #logo_raisin {
     position: absolute;
-    top : 322px;
-    height: 60px;
-    width: 60px;
+    top : 285px;
+    height: 40px;
+    width: 40px;
 }
 
 .title-container {
@@ -97,4 +109,41 @@
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     object-fit: cover;
+}
+
+/************ RESPONSIVE ORDINATEUR PETITE TAILLE ***************/
+
+@media screen and (min-width: 780px) and (max-width: 1350px) {
+
+    .card {
+        width: 30%;
+    }
+
+    .card-text, .subtitle {
+        font-size: 15px;
+    }
+
+    #logo_raisin {
+        display: none;
+    }
+
+}
+
+/************ RESPONSIVE TELEPHONE ***************/
+
+@media screen and (max-width: 779px) {
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        height: 100px;
+    }
 }
