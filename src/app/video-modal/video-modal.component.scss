@@ -19,3 +19,17 @@
     width: 100%;
     height: 100%;
   }
+
+  @media screen and (min-width: 780px) and (max-width: 1350px) {
+
+    .modal-content {
+        width: 120%;
+    }
+  }
+
+  @media screen and (max-width: 780px) {
+
+    .modal-content {
+        width: 100%;
+    }
+  }
