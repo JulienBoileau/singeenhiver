@@ -1,56 +1,93 @@
-.title-container {
-    font-family: 'Lobster', cursive;
-    font-size: 24px;
+.bloc {
+    font-family: 'Cutive Mono', monospace;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
-.cards-container {
+.bloc-one, .bloc-two, .bloc-three {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.background1, .background3 {
+  position: absolute;
+  z-index: -10;
+  display: flex;
+  background-color: #8a6d18;
+  height: 100%;
+  width: 47%;
+  right: 0px;
+}
+
+.card-pic {
+  width: 100%;
+  opacity: 8%;
+}
+
+.background2 {
+  position: absolute;
+  z-index: -10;
+  display: flex;
+  background-color: #8a6d18;
+  height: 100%;
+  width: 53%;
+  left: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+hr {
+  color: black;
+}
+
+.btn-primary {
+  position: absolute;
+  background-color: #201F1D;
+  color: #FFC107;
+  border-color: #201F1D;
+  top: 150px;
+  left: 50%;
+  right: 50%;
+  width: 80px;
+  height: 80px;
+  border-radius: 35px;
+}
+
+.btn-primary:hover {
+  background-color: #a1811f;
+  color: #201F1D;
+  border-color: #201F1D;
+}
+
+.card {
+  color: white;
+  background-color: #201F1D;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.cards_container {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     width: 80%;
     margin: auto;
+    font-size: 25px;
 }
 
-.subtitle, .card-text {
-    font-family: 'Quicksand', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;
+.bloc-one, .bloc-two, .bloc-three {
+    width: 100%;
+    color: white;
 }
 
-.btn-food {
-    font-family: 'Roboto', sans-serif;
-    font-weight: bolder;
-    border-radius: 10px;
-    border-style: none;
-    box-shadow: 2px 2px 2px black;
+.bloc-two {
+    align-self: end;
+    text-align: end;
 }
 
-#logo_food {
-    position: absolute;
-    z-index: 5;
-    top: 580px;
-    left: 22.5%;
-    width: 100px;
-}
 
-#ref {
-    font-size: smaller;
-}
-
-#logo_drink {
-    position: absolute;
-    z-index: 5;
-    top: 580px;
-    left: 47.5%;
-    width: 100px;
-}
-
-#logo_bar {
-    position: absolute;
-    z-index: 5;
-    top: 580px;
-    left: 72.5%;
-    width: 100px;
-}
 
 #logo_raisin {
     position: absolute;
@@ -59,57 +96,60 @@
     width: 40px;
 }
 
-.title-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.card-text, .subtitle {
-    margin-left: 10px;
-}
-
-.card-two {
-    line-height: 28px;
-}
-
-.line-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width: 80%;
-    margin: auto;
-}
-
 .overline {
     width: 25%;
 }
 
-.accordion-button {
-    background-color: #564A04 ;
-    color: white;
-    border-color: #564A04;
-}
+.bloc-one {-webkit-animation:slide-in-blurred-top 1.2s cubic-bezier(.23,1.000,.32,1.000) both;animation:slide-in-blurred-top 1.2s cubic-bezier(.23,1.000,.32,1.000) both}
+@keyframes slide-in-blurred-top {
+    0% {
+      transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      transform-origin: 50% 0%;
+      filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0) scaleY(1) scaleX(1);
+      transform-origin: 50% 50%;
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
 
-.card {
-    width: 25%;
-    background-color: #2F2C2C;
-    color: white;
-    border: solid 2px black;
-    box-shadow: 0px 1px 0px black;
-}
+.bloc-two {-webkit-animation:slide-in-blurred-top 2.0s cubic-bezier(.23,1.000,.32,1.000) both;animation:slide-in-blurred-top 2.0s cubic-bezier(.23,1.000,.32,1.000) both}
+@keyframes slide-in-blurred-top {
+    0% {
+      transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      transform-origin: 50% 0%;
+      filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0) scaleY(1) scaleX(1);
+      transform-origin: 50% 50%;
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
 
-.card:hover {
-    box-shadow: 0px 10px 10px black;
-}
+  .bloc-three {-webkit-animation:slide-in-blurred-top 2.8s cubic-bezier(.23,1.000,.32,1.000) both;animation:slide-in-blurred-top 2.8s cubic-bezier(.23,1.000,.32,1.000) both}
+  @keyframes slide-in-blurred-top {
+    0% {
+      transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+      transform-origin: 50% 0%;
+      filter: blur(40px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0) scaleY(1) scaleX(1);
+      transform-origin: 50% 50%;
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
 
-.card img {
-    height: 150px;
-    padding: 5px;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-    object-fit: cover;
-}
+
+
 
 /************ RESPONSIVE ORDINATEUR PETITE TAILLE ***************/
 
