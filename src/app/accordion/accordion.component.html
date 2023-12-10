@@ -1,5 +1,20 @@
 <div class="cards_container">
 
+                        <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Carte des chartreuses</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <iframe src="../../assets/carte_chartreuses.pdf" height="700" width="500"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <hr>
 
     <div class="bloc-one bloc">
@@ -46,11 +61,18 @@
                   <div style="min-height: 120px;">
                     <div class="collapse collapse-horizontal" id="collapseWidthExample2">
                       <div class="card card-body" style="width: 400px;">
-                        Carte des chartreuses 
+                        Carte des chartreuses
+
+                        <!-- Button trigger modal -->
+                      <button type="button" class="launch_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                       C A R T E
+                      </button>
+
                       </div>
                     </div>
                   </div>
             </div>
+          
 
             <div class="background2">
                 <img class="card-pic" src="../../assets/boissons.jpg" alt="boissons">
