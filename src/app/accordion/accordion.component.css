@@ -10,6 +10,18 @@
   justify-content: space-between;
 }
 
+.launch_btn {
+  margin-top: 10px;
+  border-radius: 15px;
+  border: none;
+  background-color: #a1811f;
+}
+
+.launch_btn:hover {
+  margin-top: 10px;
+  background-color: #FFC107;
+}
+
 .background1, .background3 {
   position: absolute;
   z-index: -10;
