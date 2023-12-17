@@ -1,3 +1,6 @@
+.dropdown-center {
+  display: none;
+}
 
 .bloc {
     font-family: 'Cutive Mono', monospace;
@@ -218,7 +221,7 @@ hr {
 
     .title {
       font-size: 18px;
-      padding: 10px 0px 10px 0px;
+      padding: 10px;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       background-color: #201F1D;  
@@ -255,6 +258,20 @@ hr {
 
     .card, .btn-tapas, .btn-boissons, .btn-tarifs {
       display: none;
+    }
+
+    .dropdown-center {
+      display: flex;
+      justify-content: center;
+      margin-top: 8px;
+    }
+
+    .dropdown-toggle {
+      background-color: #201F1D;
+    }
+
+    .dropdown-item {
+      z-index: 999;
     }
 
 }

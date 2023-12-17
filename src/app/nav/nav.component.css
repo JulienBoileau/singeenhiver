@@ -218,7 +218,7 @@ section {
 }
 
 .nav {
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 0px 5px 10px black;
 }
 
 .nav-item a {
@@ -289,8 +289,10 @@ section {
     }
 
     .logoSinge {
-        top: 165px;
-        width: 120px;
+        left: auto;
+        right: 10px;
+        top: 120px;
+        width: 150px;
     }
 
     .justify-content-center {
@@ -310,7 +312,11 @@ section {
     .btn-nav {
         height: 25px;
         margin-bottom: 10px;
-        width: 220px;
+        width: 200px;
+    }
+
+    .container {
+        width: 125%;
     }
 
 }

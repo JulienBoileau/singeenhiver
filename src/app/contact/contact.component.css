@@ -110,3 +110,33 @@ h3 {
     }
 
 }
+
+@media screen and (max-width: 779px)  {
+
+    .address {
+        display: block;
+        width: 80%;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .social_media {
+        width: 85%;
+        margin: auto;
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    .location p, .phone p, .email p {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    iframe {
+        height: 250px;
+        width: 85%;
+    }
+
+}
