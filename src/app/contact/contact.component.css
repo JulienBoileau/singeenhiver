@@ -51,7 +51,7 @@
 .address {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     color: white;
     font-family: 'Quicksand', sans-serif;
 }
