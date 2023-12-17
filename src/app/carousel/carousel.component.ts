@@ -11,13 +11,6 @@ export class CarouselComponent {
 
   slogan : string = "MANGER ⦁ BOIRE ⦁ VIVRE";
 
-  constructor(private modalService: NgbModal) {}
-
-  openVideoModal() {
-    const modalRef = this.modalService.open(VideoModalComponent); // Ouvrir la fenêtre modale
-    modalRef.componentInstance.videoSrc = "../../assets/video_singe.mp4"; // Transférer la source de la vidéo au composant modal
-  }
-
   ngOnInit(): void {}
 
 }
