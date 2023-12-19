@@ -40,10 +40,17 @@
 
 .launch_btn {
   margin-top: 10px;
+  padding: 5px;
   border-radius: 15px;
+  font-size: 18px;
   border: none;
   background-color: #a1811f;
 }
+
+#logo_food, #logo_wine, #logo_bottle {
+  width: 25px;
+}
+
 
 .launch_btn:hover {
   margin-top: 10px;
@@ -58,11 +65,19 @@
   height: 100%;
   width: 47%;
   right: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.drink_btn, .food_btn {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
 }
 
 .card-pic {
   width: 100%;
-  opacity: 8%;
+  opacity: 16%;
 }
 
 .background2 {
@@ -85,7 +100,7 @@ hr {
   position: absolute;
   background-color: #201F1D;
   color: #FFC107;
-  border-color: #201F1D;
+  border-color: #69520d;
   top: 40%;
   left: 50%;
   right: 50%;
@@ -116,6 +131,10 @@ hr {
     width: 80%;
     margin: auto;
     font-size: 25px;
+}
+
+.chartreuse {
+  text-overflow: ellipsis;
 }
 
 .bloc-one, .bloc-two, .bloc-three {
@@ -185,6 +204,13 @@ hr {
 
 /************ RESPONSIVE ORDINATEUR PETITE TAILLE ***************/
 
+@media screen and (min-width: 1351px) and (max-width: 1610px) {
+
+  .card-text, .subtitle {
+    font-size: 20px;
+}
+}
+
 @media screen and (min-width: 780px) and (max-width: 1350px) {
 
     .card {
@@ -220,8 +246,8 @@ hr {
     }
 
     .title {
-      font-size: 18px;
-      padding: 10px;
+      font-size: 16px;
+      padding: 8px;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
       background-color: #201F1D;  
