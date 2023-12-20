@@ -4,6 +4,19 @@ section {
     background: #2c2b28;
     padding: 0px 50px 50px 50px;
 }
+
+.logoSingePhone {
+    display: none;
+}
+
+.bi-camera-fill {
+    display: none;
+}
+
+.phone_gallery {
+    display: none;
+}
+
 .container {
     max-width: 1044px;
     margin: 0 auto;
@@ -200,7 +213,7 @@ section {
     background-color: white;
 }
 
-.btn-nav {
+.btn-accueil, .btn-contact, .btn-gallery {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -212,7 +225,7 @@ section {
     border-radius: 30px;
 }
 
-.nav-item {
+.nav-accueil, .nav-contact, .nav-gallery {
     margin-left : 15px;
     margin-right: 15px;
 }
@@ -221,7 +234,7 @@ section {
     box-shadow: 0px 5px 10px black;
 }
 
-.nav-item a {
+.nav-accueil a, .nav-contact a, .nav-gallery a {
     font-family: 'Quicksand', sans-serif;
     color : #232321;
     font-size: 15px;
@@ -229,7 +242,6 @@ section {
     margin-left: 50px;
     margin-right: 50px;
 }
-
 
 .logoSinge {
     z-index : 10;
@@ -239,23 +251,6 @@ section {
     width: 280px;
     border-radius : 200px;
 }
-
-.btn-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30px;
-    box-shadow: 2px 2px 2px black;
-    position: absolute;
-    top : 30px;
-    right: 40px;
-    height: 30px;
-    color : #232321;
-    font-size: 15px;
-    font-weight: 600;
-    font-family: 'Quicksand', sans-serif;
-}
-
 
 .offcanvas-top {
     height: 100%;
@@ -274,6 +269,10 @@ section {
 
 @media screen and (min-width: 780px) and (max-width: 1350px) {
 
+    .bi-camera-fill {
+        display: none;
+    }
+
     .logoSinge {
         top: 350px;
         width: 200px;
@@ -284,34 +283,81 @@ section {
 
 @media screen and (max-width: 779px) {
 
-    .nav-item svg {
+    .logoSinge {
         display: none;
     }
 
-    .logoSinge {
-        left: auto;
-        right: 10px;
-        top: 120px;
-        width: 150px;
+    .nav {
+        position: relative;
+    }
+
+    .logoSingePhone {
+        display: flex;
+        position: absolute;
+        z-index: 99;
+        width: 160px;
+        top: 160px;
+        left: 46%;
+        transform: translate(-50%, -50%);
+    }
+
+
+    .carousel {
+        display: none;
+    }
+
+    .phone_gallery {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .phone_gallery img {
+        margin: 10px;
+        border-radius: 5px;
+    }
+
+    .nav-accueil svg, .nav-contact svg {
+        display: none;
+    }
+
+    .bi-image-fill {
+        display: none;
+    }
+
+    .bi-camera-fill {
+        display: flex;
+        position: absolute;
+        color: black;
+        align-items: center;
+        right: 6px;
+        top : 7px;
+    }
+
+    .nav-contact {
+        margin-top: 0px;
+        margin-bottom: 20px;
     }
 
     .justify-content-center {
-        height: 160px;
-    }
-
-    .nav {
-        flex-wrap: nowrap;
+        height: 150px;
         flex-direction: column;
-        align-items:center;
     }
 
-    .nav-item {
-        margin-top: 10px;
+    .nav-gallery span {
+        display: none;
+    }
+    
+    .btn-gallery {
+        position: absolute;
+        top: 25px;
+        width: 50px;
+        height: 50px;
+        right: 5%;
     }
 
-    .btn-nav {
-        height: 25px;
-        margin-bottom: 10px;
+    .btn-accueil, .btn-contact {
+        height: 28px;
+        margin-bottom: 12px;
         width: 200px;
     }
 

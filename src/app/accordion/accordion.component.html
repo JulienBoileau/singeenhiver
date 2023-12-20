@@ -8,7 +8,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <iframe src="../../assets/carte_chartreuses.pdf" height="700" width="500"></iframe>
+            <iframe id="iframe1" src="../../assets/carte_chartreuses.pdf"></iframe>
           </div>
         </div>
       </div>
@@ -22,7 +22,7 @@
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <iframe src="../../assets/carte_des_vins.pdf" height="700" width="500"></iframe>
+            <iframe id="iframe2" src="../../assets/carte_des_vins.pdf"></iframe>
           </div>
         </div>
       </div>
@@ -124,8 +124,9 @@
                     Cartes
                   </button>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Carte des Chartreuses</a></li>
-                    <li><a class="dropdown-item" href="#">Carte des vins</a></li>
+                    <li><button type="button" class="dropdown-item item-one" data-bs-toggle="modal" data-bs-target="#exampleModal">Carte des Chartreuses</button></li>
+                    <hr>
+                    <li><button type="button"  class="dropdown-item item-two" data-bs-toggle="modal" data-bs-target="#exampleModal2">Carte des vins</button></li>
                   </ul>
                 </div>
                 <p>
