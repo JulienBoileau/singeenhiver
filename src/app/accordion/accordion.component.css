@@ -237,7 +237,7 @@ hr {
 @media screen and (max-width: 779px) {
 
     .modal-body iframe {
-      width: 100%;
+      width: 350px;
       height: 600px;
     }
 
@@ -265,7 +265,8 @@ hr {
     }
 
     .subtitle {
-      font-size: 16px;
+      font-size: 17px;
+      color: black;
     }
 
     .card-text {
@@ -285,6 +286,14 @@ hr {
     .card-text, .subtitle {
       width: 80%;
       margin: auto;
+    }
+    
+    .sub1, .sub2 {
+      margin-bottom: 5px;
+    }
+
+    .sub2 {
+      margin-top: 10px;
     }
 
     .background1, .background2, .background3 {
