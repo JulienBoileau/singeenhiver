@@ -21,7 +21,7 @@
 }
 
 .horaires {
-    width: 20%;
+    width: 25%;
     margin: auto;
     margin-top: 40px;
     color: white;
@@ -130,15 +130,19 @@ h3 {
     margin: 8px;
 }
 
-@media screen and (min-width: 780px) and (max-width: 1350px) {
+@media screen and (min-width: 791px) and (max-width: 1350px) {
 
-    .logo_singe {
-        display: none;
+    .address {
+        display: block;
+        width: 50%;
     }
 
+    .horaires {
+        width: 50%;
+    }
 }
 
-@media screen and (max-width: 779px)  {
+@media screen and (max-width: 790px)  {
 
     .address {
         display: block;
@@ -173,5 +177,9 @@ h3 {
         border-radius: 15px;
         padding: 10px;
         font-family: 'Quicksand', sans-serif;
+    }
+
+    .contact-background {
+        height: auto;
     }
 }

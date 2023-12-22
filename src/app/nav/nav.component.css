@@ -271,21 +271,25 @@ section {
 
 /************ RESPONSIVE ORDINATEUR PETITE TAILLE ***************/
 
-@media screen and (min-width: 780px) and (max-width: 1350px) {
+@media screen and (min-width: 791px) and (max-width: 1350px) {
 
     .bi-camera-fill {
         display: none;
     }
 
     .logoSinge {
-        top: 350px;
-        width: 200px;
+        top: 80px;
+        width: 160px;
+    }
+
+    .justify-content-center {
+        height: 120px;
     }
 }
 
 /************ RESPONSIVE TELEPHONE ***************/
 
-@media screen and (max-width: 779px) {
+@media screen and (max-width: 790px) {
 
     .logoSinge {
         display: none;
