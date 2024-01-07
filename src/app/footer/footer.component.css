@@ -1,6 +1,51 @@
 .footer-background {
-    margin-top: 80px;
-    height: 180px;
+    font-family: 'Quicksand', sans-serif;
+    border-top: 4px solid #302504;
+    margin-top: 120px;
+    height: 200px;
+    width: 100%;
     background-color: #080808;
     box-shadow: 5px -3px 10px black;
+}
+
+#ligne_bas {
+    border: 2px solid white;
+    width: 60%;
+    margin: auto;
+}
+
+.reseaux {
+    color: white;
+    width: 15%;
+    padding-top: 20px;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.reseaux a {
+    text-decoration: none;
+    color: #be951a;
+}
+
+.footer_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 18px;
+    color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.entreprise {
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    color: white;
+    margin: auto;
+    margin-top: 25px;
 }
