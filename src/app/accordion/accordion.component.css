@@ -332,6 +332,7 @@ hr {
     border: 2px solid black;
     box-shadow: 2px 3px 0px 1px;
     margin-bottom: 10px;
+    padding-top: 4px;
     font-weight: bold;
   }
   
@@ -372,6 +373,7 @@ hr {
       border: 2px solid black;
       box-shadow: 2px 3px 0px 1px;
       margin-bottom: 10px;
+      padding-top: 4px;
     }
 
     .card-text {

@@ -11,6 +11,7 @@
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
     border: 4px solid;
+    border-radius: 20px;
 }
 
 .video {
