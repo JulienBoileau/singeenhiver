@@ -10,7 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { AccordionComponent } from './accordion/accordion.component';
 import { FooterComponent } from './footer/footer.component';
 import { VideoModalComponent } from './video-modal/video-modal.component';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap'; 
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MentionsComponent } from './mentions/mentions.component'; 
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HomeComponent,
     AccordionComponent,
     FooterComponent,
-    VideoModalComponent
+    VideoModalComponent,
+    MentionsComponent
   ],
   imports: [
     BrowserModule,

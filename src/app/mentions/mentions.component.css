@@ -1,0 +1,9 @@
+.mentions {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 80px;
+    width: 70%;
+    color: white;
+}

@@ -16,4 +16,8 @@ export class FooterComponent implements OnInit {
     this.router.navigate(['/contact']);
   }
 
+  goToMentions() {
+    this.router.navigate(['/mentions']);
+  }
+
 }

@@ -8,12 +8,12 @@
     box-shadow: 5px -3px 10px black;
 }
 
-.contact {
+.contact, .mentions {
     text-decoration: none;
     color: white;
 }
 
-.contact:hover {
+.contact:hover, .mentions:hover {
     color: #be951a;
     cursor: pointer;
 }

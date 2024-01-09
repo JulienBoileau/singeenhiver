@@ -325,9 +325,9 @@ hr {
     display: flex;
     justify-content: center;
     margin-top: -35px;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(0, 0, 0);
-    background-color: #57440b;
+    background-color: #8a6c13;
     border-radius: 15px;
     border: 2px solid black;
     box-shadow: 2px 3px 0px 1px;
@@ -356,7 +356,7 @@ hr {
     }
 
     .title {
-      font-size: 25px;
+      font-size: 32px;
       padding: 8px;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
@@ -366,9 +366,9 @@ hr {
     }
 
     .subtitle {
-      font-size: 25px;
+      font-size: 20px;
       color: rgb(0, 0, 0);
-      background-color: #57440b;
+      background-color: #8a6c13;
       border-radius: 15px;
       border: 2px solid black;
       box-shadow: 2px 3px 0px 1px;
