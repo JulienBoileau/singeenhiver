@@ -1,3 +1,9 @@
+<!-- <div class="presentation">
+  <p class="words">BAR | RESTAURANT | SOIRÉES TAPAS</p>
+  <p class="paraph">Votre bar restaurant au coeur de Brive</p><br>
+  <p class="paraph">Venez découvrir les saveurs de la cuisine gourmande !</p>
+</div>-->
+
 <div class="cards_container">
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -27,6 +33,20 @@
             <img src="../../assets/vin2.png">
             <img src="../../assets/vin3.png">
             <img src="../../assets/vin4.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content carte-tapas">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Carte des tapas</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../../assets/tapas.png">
           </div>
         </div>
       </div>
@@ -64,7 +84,7 @@
                 Cartes
               </button>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Carte des tapas</a></li>
+                <li><button type="button" class="dropdown-item item-one" data-bs-toggle="modal" data-bs-target="#exampleModal3">Carte des tapas</button></li>
               </ul>
             </div>
             <p>
@@ -83,7 +103,7 @@
                 <div class="collapse collapse-horizontal" id="collapseWidthExample">
                   <div class="card card-body" style="width: 30vw;">
                     Tapas à la carte 
-                    <button type="button" class="launch_btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <button type="button" class="launch_btn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
                       <strong>Tapas <img id="logo_food" src="../../assets/restaurant.png" alt="icone repas"></strong>
                     </button>
                   </div>
@@ -154,10 +174,10 @@
 
         <div class="text">
             <p class="title">Espace privatisable</p>
-            <p class="card-text card-two">
+            <p class="card-text card-two card-room">
                 <span class="room-text">Privatisation de salle avec terrasse - Journée & Soirée</span> <br><br>
                 <span class="room-text-phone">Privatisation de salle avec terrasse</span>
-            </p><br>
+            </p>
             <p class="card-text card-two">Pour un évènement professionnel</p>
             <hr class="hr2">
             <p class="card-text card-two">Pour un anniversaire</p>
@@ -168,7 +188,7 @@
 
             <p>
                 <button class="btn btn-primary btn-tarifs" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample3" aria-expanded="false" aria-controls="collapseWidthExample3">
-                    <strong>Tarifs</strong>
+                    <strong>Salle</strong>
                 </button>
                 </p>
             </div>
@@ -180,8 +200,10 @@
             <div class="card">
                   <div style="min-height: 120px;">
                     <div class="collapse collapse-horizontal" id="collapseWidthExample3">
-                      <div class="card card-body" style="width: 30vw;">
-                        Tarifs
+                      <div class="card card-body carte-salle" style="width: 30vw;">
+                        <p>Merci de nous contacter pour obtenir les tarifs</p>
+                        <hr>
+                        <p><i class="fi fi-sr-circle-phone"></i>&nbsp;&nbsp;<a href="tel:0519980323"><span id="numero">05 55 23 02 54</span></a></p>
                       </div>
                     </div>
                   </div>
